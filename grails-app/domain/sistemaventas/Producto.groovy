@@ -14,6 +14,6 @@ class Producto {
         precioActual nullable: true
         stock        nullable: true
         categoria    nullable: true
-        proveedores   nullable: true
+        proveedores  nullable: true
     }
 }

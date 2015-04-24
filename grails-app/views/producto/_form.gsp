@@ -29,7 +29,7 @@
 
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: productoInstance, field: 'categoria', 'error')} ">
+<div class="fieldcontain ${hasErrors(bean: productoInstance, field: 'Proveedor', 'error')} ">
 	<label for="categoria">
 		<g:message code="producto.categoria.label" default="Categoria" />
 		
@@ -43,7 +43,7 @@
         <g:message code="producto.categoria.label" default="Categoria" />
 
     </label>
-    <g:select id="cliente" name="cliente.id" from="${sistemaventas.Proveedor.list()}" optionKey="id" value="${productoInstance?.proveedor?.id}" class="many-to-one" noSelection="['null': '']"/>
+    <g:select id="proveedores" name="proveedores.id" from="${sistemaventas.Proveedor.list()}" optionKey="id" value="${productoInstance?.proveedores?.id}" class="many-to-one" noSelection="['null': '']"/>
 
 </div>
 

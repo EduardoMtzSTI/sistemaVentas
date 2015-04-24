@@ -14,4 +14,8 @@ class Proveedor {
         paginaWeb nullable: true
         direccion nullable: true
     }
+
+    String toString(){
+        nombre
+    }
 }
